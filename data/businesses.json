@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Dairy",
+    "typical_project_cost_range": [50000, 800000],
+    "seasonality": "moderate",
+    "common_risks": ["fodder price volatility", "cold-chain dependency", "cattle health/veterinary costs"],
+    "avg_gross_margin_pct": 25
+  },
+  {
+    "category": "Retail",
+    "typical_project_cost_range": [100000, 1500000],
+    "seasonality": "low",
+    "common_risks": ["inventory holding cost", "competition from larger stores", "footfall dependency"],
+    "avg_gross_margin_pct": 18
+  },
+  {
+    "category": "Textiles",
+    "typical_project_cost_range": [150000, 2000000],
+    "seasonality": "high",
+    "common_risks": ["raw material price swings", "seasonal demand concentration", "single-buyer dependency"],
+    "avg_gross_margin_pct": 22
+  },
+  {
+    "category": "Poultry",
+    "typical_project_cost_range": [75000, 900000],
+    "seasonality": "moderate",
+    "common_risks": ["feed cost volatility", "disease outbreak risk", "temperature sensitivity"],
+    "avg_gross_margin_pct": 20
+  },
+  {
+    "category": "Food Processing",
+    "typical_project_cost_range": [200000, 3000000],
+    "seasonality": "moderate",
+    "common_risks": ["raw material seasonality", "shelf-life/spoilage", "licensing/compliance costs"],
+    "avg_gross_margin_pct": 28
+  }
+]

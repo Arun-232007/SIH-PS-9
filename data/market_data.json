@@ -1,0 +1,38 @@
+[
+  {
+    "district": "Coimbatore",
+    "category": "Dairy",
+    "avg_local_price": 55,
+    "purchasing_power_index": 0.62,
+    "demand_level": "high",
+    "seasonality": "moderate",
+    "opportunity_level": "high"
+  },
+  {
+    "district": "Coimbatore",
+    "category": "Retail",
+    "avg_local_price": 120,
+    "purchasing_power_index": 0.62,
+    "demand_level": "high",
+    "seasonality": "low",
+    "opportunity_level": "medium"
+  },
+  {
+    "district": "Coimbatore",
+    "category": "Poultry",
+    "avg_local_price": 180,
+    "purchasing_power_index": 0.62,
+    "demand_level": "high",
+    "seasonality": "moderate",
+    "opportunity_level": "high"
+  },
+  {
+    "district": "Coimbatore",
+    "category": "Textiles",
+    "avg_local_price": 350,
+    "purchasing_power_index": 0.62,
+    "demand_level": "medium",
+    "seasonality": "high",
+    "opportunity_level": "medium"
+  }
+]
