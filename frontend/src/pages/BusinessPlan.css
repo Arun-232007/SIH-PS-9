@@ -1,0 +1,1114 @@
+/* =========================================================
+   GRAM-BIZ AI
+   BUSINESS PLAN
+   PREMIUM GREEN / RURAL THEME
+   ========================================================= */
+
+.business-plan-page {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 88% 5%,
+      rgba(117, 170, 112, 0.15),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 5% 70%,
+      rgba(176, 204, 181, 0.14),
+      transparent 30%
+    ),
+    #f6faf6;
+
+  color: #29462e;
+}
+
+.business-plan-page *,
+.business-plan-page *::before,
+.business-plan-page *::after {
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.business-plan-header {
+  height: 78px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 0 6%;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background:
+    linear-gradient(
+      135deg,
+      #426f51,
+      #4f8060,
+      #5a8b67
+    );
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.15);
+
+  box-shadow:
+    0 5px 20px
+    rgba(39, 82, 55, 0.16);
+}
+
+.business-plan-back {
+  border: none;
+
+  background:
+    rgba(255, 255, 255, 0.12);
+
+  color: white;
+
+  padding: 10px 14px;
+
+  border-radius: 10px;
+
+  font-size: 11px;
+  font-weight: 750;
+
+  cursor: pointer;
+}
+
+.business-plan-back:hover {
+  background:
+    rgba(255, 255, 255, 0.20);
+
+  transform: translateX(-2px);
+}
+
+.business-plan-brand {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.business-plan-logo {
+  width: 41px;
+  height: 41px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #376947,
+      #679a72
+    );
+
+  color: white;
+
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.business-plan-brand strong {
+  display: block;
+
+  color: white;
+
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.business-plan-brand span {
+  display: block;
+
+  margin-top: 2px;
+
+  color:
+    rgba(255, 255, 255, 0.73);
+
+  font-size: 8px;
+}
+
+.business-plan-status {
+  padding: 6px 10px;
+
+  border-radius: 20px;
+
+  background:
+    rgba(255, 255, 255, 0.14);
+
+  color: white;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   MAIN
+   ========================================================= */
+
+.business-plan-main {
+  width: min(1120px, 100%);
+
+  margin: 0 auto;
+
+  padding: 54px 24px 70px;
+}
+
+
+/* =========================================================
+   INTRO
+   ========================================================= */
+
+.business-plan-intro {
+  max-width: 760px;
+
+  margin: 0 auto 32px;
+
+  text-align: center;
+}
+
+.business-plan-eyebrow {
+  display: inline-flex;
+
+  padding: 8px 13px;
+
+  border-radius: 30px;
+
+  background:
+    #e3f1e4;
+
+  color:
+    #3f8050;
+
+  font-size: 8px;
+  font-weight: 850;
+
+  letter-spacing: 1px;
+}
+
+.business-plan-intro h1 {
+  margin: 20px 0 13px;
+
+  color: #193328;
+
+  font-size:
+    clamp(34px, 5vw, 52px);
+
+  line-height: 1.08;
+
+  letter-spacing: -2px;
+}
+
+.business-plan-intro h1 span {
+  background:
+    linear-gradient(
+      100deg,
+      #2f7d5a,
+      #3f9368,
+      #7ca85e
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.business-plan-intro p {
+  max-width: 680px;
+
+  margin: 0 auto;
+
+  color: #6b796f;
+
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   SUMMARY
+   ========================================================= */
+
+.business-plan-summary {
+  display: grid;
+
+  grid-template-columns:
+    54px minmax(0, 1fr) auto;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 20px;
+
+  padding: 19px 21px;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff,
+      #f1f7f1
+    );
+
+  border: 1px solid #dfe9e0;
+
+  box-shadow:
+    0 8px 24px
+    rgba(45, 82, 50, 0.045);
+}
+
+.plan-summary-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: #e3f0e4;
+
+  font-size: 20px;
+}
+
+.plan-summary-main span,
+.plan-summary-investment span {
+  display: block;
+
+  color: #809087;
+
+  font-size: 8px;
+  font-weight: 850;
+
+  letter-spacing: 1px;
+}
+
+.plan-summary-main h2 {
+  margin: 4px 0 2px;
+
+  color: #29462e;
+
+  font-size: 19px;
+}
+
+.plan-summary-main p {
+  margin: 0;
+
+  color: #748177;
+
+  font-size: 10px;
+}
+
+.plan-summary-investment {
+  text-align: right;
+}
+
+.plan-summary-investment strong {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #4f8655;
+
+  font-size: 19px;
+}
+
+
+/* =========================================================
+   LAYOUT
+   ========================================================= */
+
+.business-plan-layout {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.55fr)
+    minmax(280px, 0.75fr);
+
+  gap: 20px;
+
+  align-items: start;
+}
+
+
+/* =========================================================
+   FORM CARD
+   ========================================================= */
+
+.business-plan-form-card {
+  padding: 24px;
+
+  background:
+    rgba(255, 255, 255, 0.96);
+
+  border: 1px solid #dfe9e0;
+  border-radius: 18px;
+
+  box-shadow:
+    0 10px 28px
+    rgba(45, 82, 50, 0.05);
+}
+
+.plan-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.plan-section-heading span {
+  color: #6e9073;
+
+  font-size: 8px;
+  font-weight: 850;
+
+  letter-spacing: 1.2px;
+}
+
+.plan-section-heading h2 {
+  margin: 5px 0 0;
+
+  color: #29462e;
+
+  font-size: 20px;
+}
+
+.plan-step-count {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #e5f1e6;
+
+  color: #4f8655;
+
+  font-size: 10px;
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   FIELDS
+   ========================================================= */
+
+.plan-field {
+  margin-bottom: 19px;
+}
+
+.plan-field > label {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #3b5641;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.plan-field > p {
+  margin: 0 0 9px;
+
+  color: #7b877e;
+
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.plan-field textarea {
+  width: 100%;
+
+  min-height: 88px;
+
+  resize: vertical;
+
+  padding: 12px 13px;
+
+  border:
+    1px solid #d7e3d8;
+
+  border-radius: 11px;
+
+  background: #fbfdfb;
+
+  color: #38513e;
+
+  font-family: inherit;
+
+  font-size: 11px;
+  line-height: 1.5;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.plan-field textarea::placeholder {
+  color: #a0aaa2;
+}
+
+.plan-field textarea:focus {
+  background: white;
+
+  border-color:
+    #6a9c71;
+
+  box-shadow:
+    0 0 0 4px
+    rgba(79, 134, 85, 0.08);
+}
+
+.plan-field-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 14px;
+}
+
+.plan-input {
+  height: 49px;
+
+  display: flex;
+  align-items: center;
+
+  border:
+    1px solid #d7e3d8;
+
+  border-radius: 11px;
+
+  background: #fbfdfb;
+
+  overflow: hidden;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.plan-input:focus-within {
+  background: white;
+
+  border-color:
+    #6a9c71;
+
+  box-shadow:
+    0 0 0 4px
+    rgba(79, 134, 85, 0.08);
+}
+
+.plan-input > span {
+  width: 42px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #4f8655;
+
+  font-size: 14px;
+  font-weight: 850;
+}
+
+.plan-input input {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: #38513e;
+
+  font-family: inherit;
+
+  font-size: 12px;
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   ACTIONS
+   ========================================================= */
+
+.plan-actions {
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 10px;
+
+  padding-top: 4px;
+}
+
+.clear-plan-btn,
+.save-plan-btn {
+  min-height: 42px;
+
+  padding: 0 15px;
+
+  border-radius: 10px;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+.clear-plan-btn {
+  border:
+    1px solid #d5e3d6;
+
+  background: white;
+
+  color: #6d7d71;
+}
+
+.clear-plan-btn:hover {
+  background: #f4f8f4;
+}
+
+.save-plan-btn {
+  border: none;
+
+  background:
+    linear-gradient(
+      135deg,
+      #4f8655,
+      #6aa06f
+    );
+
+  color: white;
+
+  box-shadow:
+    0 8px 18px
+    rgba(79, 134, 85, 0.15);
+}
+
+.save-plan-btn:hover {
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 11px 24px
+    rgba(79, 134, 85, 0.20);
+}
+
+
+/* =========================================================
+   SIDE CARDS
+   ========================================================= */
+
+.business-plan-side {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.ai-plan-card,
+.profit-preview-card,
+.plan-navigation-card {
+  padding: 20px;
+
+  border-radius: 17px;
+
+  border: 1px solid #dfe9e0;
+
+  box-shadow:
+    0 8px 23px
+    rgba(45, 82, 50, 0.045);
+}
+
+.ai-plan-card {
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #f1f7f1
+    );
+}
+
+.ai-plan-icon {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 13px;
+
+  border-radius: 12px;
+
+  background: #e2f0e3;
+
+  color: #4f8655;
+
+  font-size: 17px;
+}
+
+.ai-plan-card > span {
+  color: #6c9072;
+
+  font-size: 8px;
+  font-weight: 850;
+
+  letter-spacing: 1px;
+}
+
+.ai-plan-card h2 {
+  margin: 5px 0 7px;
+
+  color: #29462e;
+
+  font-size: 18px;
+}
+
+.ai-plan-card > p {
+  margin: 0 0 15px;
+
+  color: #718074;
+
+  font-size: 9px;
+
+  line-height: 1.6;
+}
+
+.snapshot-item {
+  padding: 10px 0;
+
+  border-top:
+    1px solid #e4ece5;
+}
+
+.snapshot-item span {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #89958d;
+
+  font-size: 7px;
+  font-weight: 850;
+
+  letter-spacing: 0.8px;
+}
+
+.snapshot-item strong {
+  display: block;
+
+  color: #4a6250;
+
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+
+/* PROFIT */
+
+.profit-preview-card {
+  background:
+    linear-gradient(
+      135deg,
+      #eaf5eb,
+      #f8fbf7
+    );
+}
+
+.profit-preview-card > span {
+  display: block;
+
+  color: #6d8b72;
+
+  font-size: 8px;
+  font-weight: 850;
+
+  letter-spacing: 0.8px;
+}
+
+.profit-preview-card strong {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #3f8050;
+
+  font-size: 25px;
+}
+
+.profit-preview-card p {
+  margin: 5px 0 0;
+
+  color: #6f7d72;
+
+  font-size: 8px;
+  line-height: 1.5;
+}
+
+
+/* NAVIGATION */
+
+.plan-navigation-card {
+  background:
+    #29462e;
+
+  color: white;
+}
+
+.plan-navigation-card > span {
+  color: #b9d4bc;
+
+  font-size: 8px;
+  font-weight: 850;
+
+  letter-spacing: 1px;
+}
+
+.plan-navigation-card h3 {
+  margin: 6px 0 5px;
+
+  font-size: 17px;
+}
+
+.plan-navigation-card p {
+  margin: 0;
+
+  color: #cbd9cd;
+
+  font-size: 9px;
+  line-height: 1.55;
+}
+
+.plan-navigation-card button {
+  width: 100%;
+
+  margin-top: 13px;
+
+  padding: 10px 12px;
+
+  border: none;
+  border-radius: 9px;
+
+  background: white;
+  color: #315f36;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+
+/* =========================================================
+   GENERATED PLAN
+   ========================================================= */
+
+.generated-plan-card {
+  margin-top: 20px;
+
+  padding: 23px;
+
+  border-radius: 18px;
+
+  background:
+    rgba(255, 255, 255, 0.96);
+
+  border: 1px solid #dfe9e0;
+
+  box-shadow:
+    0 8px 25px
+    rgba(45, 82, 50, 0.045);
+}
+
+.generated-plan-heading {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 18px;
+}
+
+.generated-plan-heading span:first-child {
+  color: #6c9072;
+
+  font-size: 8px;
+  font-weight: 850;
+
+  letter-spacing: 1px;
+}
+
+.generated-plan-heading h2 {
+  margin: 5px 0 0;
+
+  color: #29462e;
+
+  font-size: 19px;
+}
+
+.plan-ready-badge {
+  padding: 6px 9px;
+
+  border-radius: 20px;
+
+  background: #e8f3e9;
+
+  color: #4f8655;
+
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.generated-plan-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.generated-plan-grid > div {
+  min-width: 0;
+
+  padding: 13px;
+
+  border-radius: 11px;
+
+  background: #f8fbf8;
+
+  border:
+    1px solid #e2ebe3;
+}
+
+.generated-plan-grid span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #89958c;
+
+  font-size: 7px;
+  font-weight: 850;
+
+  letter-spacing: 0.7px;
+}
+
+.generated-plan-grid strong {
+  display: block;
+
+  color: #405944;
+
+  font-size: 10px;
+  line-height: 1.4;
+
+  word-break: break-word;
+}
+
+.generated-plan-note {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 12px;
+
+  padding: 11px 13px;
+
+  border-radius: 10px;
+
+  background: #f1f7f1;
+
+  border: 1px solid #e1ebe2;
+}
+
+.generated-plan-note > div {
+  width: 24px;
+  height: 24px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #dceede;
+
+  color: #4f8655;
+
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.generated-plan-note p {
+  margin: 0;
+
+  color: #6c796f;
+
+  font-size: 8px;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.business-plan-footer {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 15px;
+
+  padding: 20px 2px 0;
+
+  color: #91a095;
+
+  font-size: 8px;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .business-plan-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .business-plan-side {
+    display: grid;
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .ai-plan-card {
+    grid-row: span 2;
+  }
+
+  .generated-plan-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 650px) {
+  .business-plan-header {
+    height: auto;
+    min-height: 70px;
+
+    padding: 11px 15px;
+  }
+
+  .business-plan-back {
+    font-size: 9px;
+    padding: 8px 10px;
+  }
+
+  .business-plan-brand span {
+    display: none;
+  }
+
+  .business-plan-brand strong {
+    font-size: 12px;
+  }
+
+  .business-plan-status {
+    display: none;
+  }
+
+  .business-plan-main {
+    padding: 38px 15px 55px;
+  }
+
+  .business-plan-intro h1 {
+    font-size: 36px;
+    letter-spacing: -1.6px;
+  }
+
+  .business-plan-intro p {
+    font-size: 11px;
+  }
+
+  .business-plan-summary {
+    grid-template-columns: 48px 1fr;
+  }
+
+  .plan-summary-investment {
+    grid-column: 1 / -1;
+    text-align: left;
+
+    padding-top: 11px;
+
+    border-top:
+      1px solid #e3ece4;
+  }
+
+  .plan-field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .business-plan-form-card {
+    padding: 18px;
+  }
+
+  .business-plan-side {
+    display: flex;
+  }
+
+  .generated-plan-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-actions {
+    flex-direction: column-reverse;
+  }
+
+  .clear-plan-btn,
+  .save-plan-btn {
+    width: 100%;
+  }
+
+  .business-plan-footer {
+    flex-direction: column;
+  }
+}
