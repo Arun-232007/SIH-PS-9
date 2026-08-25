@@ -1,0 +1,26 @@
+[
+  {
+    "village": "Sulur",
+    "block": "Sulur",
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "population": 28000,
+    "nearest_market_town_km": 5
+  },
+  {
+    "village": "Pollachi",
+    "block": "Pollachi",
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "population": 90000,
+    "nearest_market_town_km": 2
+  },
+  {
+    "village": "Annur",
+    "block": "Annur",
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "population": 30000,
+    "nearest_market_town_km": 4
+  }
+]

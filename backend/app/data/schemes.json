@@ -1,0 +1,22 @@
+[
+  {
+    "scheme_name": "Micro Finance Scheme",
+    "min_project_cost": 0,
+    "max_project_cost": 140000,
+    "max_loan_pct": 0.90,
+    "max_loan_amount": 125000,
+    "interest_rate_pct": 6.5,
+    "tenure_years": 3,
+    "moratorium_months": 3
+  },
+  {
+    "scheme_name": "Term Loan Scheme",
+    "min_project_cost": 140001,
+    "max_project_cost": 5000000,
+    "max_loan_pct": 0.90,
+    "max_loan_amount": 4500000,
+    "interest_rate_pct": 8.0,
+    "tenure_years": 7,
+    "moratorium_months": 6
+  }
+]

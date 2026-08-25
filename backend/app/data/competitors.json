@@ -1,0 +1,65 @@
+[
+  {
+    "block": "Sulur",
+    "district": "Coimbatore",
+    "category": "Dairy",
+    "estimated_competitor_count": 6,
+    "saturation_level": "medium"
+  },
+  {
+    "block": "Sulur",
+    "district": "Coimbatore",
+    "category": "Retail",
+    "estimated_competitor_count": 15,
+    "saturation_level": "high"
+  },
+  {
+    "block": "Sulur",
+    "district": "Coimbatore",
+    "category": "Poultry",
+    "estimated_competitor_count": 4,
+    "saturation_level": "low"
+  },
+  {
+    "block": "Pollachi",
+    "district": "Coimbatore",
+    "category": "Dairy",
+    "estimated_competitor_count": 10,
+    "saturation_level": "medium"
+  },
+  {
+    "block": "Pollachi",
+    "district": "Coimbatore",
+    "category": "Retail",
+    "estimated_competitor_count": 22,
+    "saturation_level": "high"
+  },
+  {
+    "block": "Pollachi",
+    "district": "Coimbatore",
+    "category": "Poultry",
+    "estimated_competitor_count": 7,
+    "saturation_level": "medium"
+  },
+  {
+    "block": "Annur",
+    "district": "Coimbatore",
+    "category": "Dairy",
+    "estimated_competitor_count": 4,
+    "saturation_level": "low"
+  },
+  {
+    "block": "Annur",
+    "district": "Coimbatore",
+    "category": "Retail",
+    "estimated_competitor_count": 12,
+    "saturation_level": "medium"
+  },
+  {
+    "block": "Annur",
+    "district": "Coimbatore",
+    "category": "Poultry",
+    "estimated_competitor_count": 5,
+    "saturation_level": "medium"
+  }
+]
